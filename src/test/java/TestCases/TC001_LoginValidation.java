@@ -6,7 +6,9 @@ import java.io.IOException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.ExtentReports;
@@ -25,20 +27,20 @@ public class TC001_LoginValidation extends TestBase {
 
 	@BeforeMethod
 	public void setup() throws IOException {
-		report = new ExtentReports("./Reports/LoginValidation.html", true);
+		report = new ExtentReports("./Reports/LoginValidation.html", false);
 		logger = report.startTest("Verify login", "This script will test login process and page title");
 		init();
 		logger.log(LogStatus.INFO, "Aplication is up and running");
 	}
 
-	/*@Test
+	@Test
 	public void testAppTitle() {
 		SignIn signin = PageFactory.initElements(driver, SignIn.class);
 		String title = signin.getAppTitle();
 		Assert.assertTrue(title.contains("My Store"));
 		logger.log(LogStatus.INFO, logger.addScreenCapture(Helper.TakeScreenShot(driver, "TitleValidation")));
 		logger.log(LogStatus.PASS, "Aplication title is verified");
-	}*/
+	}
 
 	@Test
 	public void testLogin() throws InterruptedException {

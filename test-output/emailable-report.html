@@ -31,16 +31,27 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">70.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">LoginTest</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">54.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">TestCases.TC001_LoginValidation</td><td><a href="#m1"><b>testAppTitle</b>  </a></td><td class="numi">1</td><td>1492333809238</td><td class="numi">1325</td></tr><tr class="passedodd"><td><a href="#m2"><b>testLogin</b>  </a></td><td class="numi">1</td><td>1492333826233</td><td class="numi">31726</td></tr>
+<tr><th colspan="4">LoginTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">TestCases.TC001_LoginValidation</td><td><a href="#m1"><b>testLogin</b>  </a></td><td class="numi">1</td><td>1492366088326</td><td class="numi">17496</td></tr>
+<tr><th colspan="4">LoginTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">TestCases.TC001_LoginValidation</td><td><a href="#m2"><b>testAppTitle</b>  </a></td><td class="numi">1</td><td>1492366071300</td><td class="numi">1284</td></tr>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">TestCases.TC001_LoginValidation:testAppTitle</h2>
+<h1>LoginTest</h1>
+<h2 id="m1">TestCases.TC001_LoginValidation:testLogin</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at TestCases.TC001_LoginValidation.testLogin(TC001_LoginValidation.java:57)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">TestCases.TC001_LoginValidation:testLogin</h2>
+<h2 id="m2">TestCases.TC001_LoginValidation:testAppTitle</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
