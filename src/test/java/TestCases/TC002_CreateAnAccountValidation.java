@@ -1,6 +1,5 @@
 package TestCases;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
@@ -9,8 +8,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -23,8 +20,7 @@ public class TC002_CreateAnAccountValidation extends TestBase {
 
 	ExtentReports report;
 	ExtentTest logger;
-	File f;
-	
+
 	@BeforeMethod
 	public void setup() throws IOException {
 		report = new ExtentReports("./Reports/CreateAnAccountValidation.html", true);
