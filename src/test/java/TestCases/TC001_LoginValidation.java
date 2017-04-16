@@ -1,5 +1,6 @@
 package TestCases;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
@@ -20,6 +21,7 @@ public class TC001_LoginValidation extends TestBase {
 
 	ExtentReports report;
 	ExtentTest logger;
+	File fi;
 
 	@BeforeMethod
 	public void setup() throws IOException {
