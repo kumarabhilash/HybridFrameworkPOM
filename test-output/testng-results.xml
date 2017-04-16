@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69966" started-at="2017-04-16T09:09:48Z" finished-at="2017-04-16T09:10:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69966" started-at="2017-04-16T09:09:48Z" finished-at="2017-04-16T09:10:58Z">
+      <class name="TestCases.TC001_LoginValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TC001_LoginValidation@47c62251]" name="setup" is-config="true" duration-ms="20352" started-at="2017-04-16T14:39:48Z" finished-at="2017-04-16T14:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAppTitle()[pri:0, instance:TestCases.TC001_LoginValidation@47c62251]" name="testAppTitle" duration-ms="1325" started-at="2017-04-16T14:40:09Z" finished-at="2017-04-16T14:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.TC001_LoginValidation@47c62251]" name="tearDown" is-config="true" duration-ms="1445" started-at="2017-04-16T14:40:10Z" finished-at="2017-04-16T14:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAppTitle status=SUCCESS method=TC001_LoginValidation.testAppTitle()[pri:0, instance:TestCases.TC001_LoginValidation@47c62251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TC001_LoginValidation@47c62251]" name="setup" is-config="true" duration-ms="14217" started-at="2017-04-16T14:40:12Z" finished-at="2017-04-16T14:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.TC001_LoginValidation@47c62251]" name="testLogin" duration-ms="31726" started-at="2017-04-16T14:40:26Z" finished-at="2017-04-16T14:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.TC001_LoginValidation@47c62251]" name="tearDown" is-config="true" duration-ms="855" started-at="2017-04-16T14:40:57Z" finished-at="2017-04-16T14:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC001_LoginValidation.testLogin()[pri:0, instance:TestCases.TC001_LoginValidation@47c62251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_LoginValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50594" started-at="2017-04-16T13:12:23Z" finished-at="2017-04-16T13:13:13Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="50594" started-at="2017-04-16T13:12:23Z" finished-at="2017-04-16T13:13:13Z">
+      <class name="TestCases.TC001_LoginValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TC001_LoginValidation@17f6480]" name="setup" is-config="true" duration-ms="18025" started-at="2017-04-16T18:42:23Z" finished-at="2017-04-16T18:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.TC001_LoginValidation@17f6480]" name="testLogin" duration-ms="30858" started-at="2017-04-16T18:42:41Z" finished-at="2017-04-16T18:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.TC001_LoginValidation@17f6480]" name="tearDown" is-config="true" duration-ms="1673" started-at="2017-04-16T18:43:11Z" finished-at="2017-04-16T18:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC001_LoginValidation.testLogin()[pri:0, instance:TestCases.TC001_LoginValidation@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_LoginValidation -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
